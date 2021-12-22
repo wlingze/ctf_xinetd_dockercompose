@@ -2,5 +2,6 @@ version: '3'
 services:
   ctf:
     build: ./ctf
+    container_name: "name"
     ports:
-      - "5000:9999"
+      - "pub_port:9999"
